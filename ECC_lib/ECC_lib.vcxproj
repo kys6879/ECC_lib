@@ -18,6 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="content.c" />
+    <ClCompile Include="ecc.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="sha256.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\content.h" />
+    <ClInclude Include="header\ecc.h" />
+    <ClInclude Include="header\sha256.h" />
+    <ClInclude Include="header\test.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{9F4D3978-CE1A-42BB-9027-930808014C8A}</ProjectGuid>
@@ -142,18 +154,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="D:\crypto\ycrypto\content.c" />
-    <ClCompile Include="D:\crypto\ycrypto\ecc.c" />
-    <ClCompile Include="D:\crypto\ycrypto\main.c" />
-    <ClCompile Include="D:\crypto\ycrypto\sha256.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="D:\crypto\ycrypto\header\content.h" />
-    <ClInclude Include="D:\crypto\ycrypto\header\ecc.h" />
-    <ClInclude Include="D:\crypto\ycrypto\header\sha256.h" />
-    <ClInclude Include="D:\crypto\ycrypto\header\test.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\crypto\ycrypto\ecc.c">
+    <ClCompile Include="content.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="D:\crypto\ycrypto\main.c">
+    <ClCompile Include="ecc.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="D:\crypto\ycrypto\sha256.c">
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="D:\crypto\ycrypto\content.c">
+    <ClCompile Include="sha256.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\crypto\ycrypto\header\content.h">
+    <ClInclude Include="header\content.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="D:\crypto\ycrypto\header\ecc.h">
+    <ClInclude Include="header\ecc.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="D:\crypto\ycrypto\header\sha256.h">
+    <ClInclude Include="header\sha256.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="D:\crypto\ycrypto\header\test.h">
+    <ClInclude Include="header\test.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
